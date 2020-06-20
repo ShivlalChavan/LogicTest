@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">LogicTest</string>
+    <string name="txt_type">"Type : "</string>
+    <string name="textBoxOneLabel">First Name</string>
+    <string name="textBoxTwoLabel">Last Name</string>
+    <string name="btnSaveTextField">Save</string>
+    <string name="txt_Result">Full Name</string>
+    <string name="date">20-06-2020</string>
+</resources>

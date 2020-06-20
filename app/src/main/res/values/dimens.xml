@@ -1,0 +1,156 @@
+<resources
+    xmlns:tools="http://schemas.android.com/tools">
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="grid_spacing">3dp</dimen>
+    <dimen name="spacing">6dp</dimen>
+    <dimen name="event_title_text_size">18sp</dimen>
+    <dimen name="font_size_10sp">10sp</dimen>
+    <dimen name="font_size_11sp">11sp</dimen>
+    <dimen name="font_size_12sp">12sp</dimen>
+    <dimen name="font_size_13sp">13sp</dimen>
+    <dimen name="font_size_14sp">14sp</dimen>
+    <dimen name="font_size_15sp">15sp</dimen>
+    <dimen name="font_size_16sp">16sp</dimen>
+    <dimen name="font_size_17sp">17sp</dimen>
+    <dimen name="font_size_18sp">18sp</dimen>
+    <dimen name="font_size_19sp">19sp</dimen>
+    <dimen name="font_size_21sp">21sp</dimen>
+    <dimen name="font_size_20sp">20sp</dimen>
+    <dimen name="font_size_22sp">22sp</dimen>
+    <dimen name="font_size_24sp">24sp</dimen>
+    <dimen name="font_size_25sp">25sp</dimen>
+    <dimen name="font_size_28sp">28sp</dimen>
+    <dimen name="font_size_30sp">30sp</dimen>
+    <dimen name="font_size_32sp">32sp</dimen>
+    <dimen name="font_size_38sp">38sp</dimen>
+    <dimen name="font_size_45sp">45sp</dimen>
+    <dimen name="font_size_46sp">46sp</dimen>
+    <dimen name="font_size_48sp">48sp</dimen>
+    <dimen name="font_size_56sp">56sp</dimen>
+    <dimen name="font_size_72sp">72sp</dimen>
+    <dimen name="font_size_98sp">98sp</dimen>
+
+
+    <dimen name="size_dp1">1dp</dimen>
+    <dimen name="size_dp1dot4">1.4dp</dimen>
+    <dimen name="size_dp2">2dp</dimen>
+    <dimen name="size_dp3">3dp</dimen>
+    <dimen name="size_dp4">4dp</dimen>
+    <dimen name="size_dp5">5dp</dimen>
+    <dimen name="size_dp6">6dp</dimen>
+    <dimen name="size_dp7">7dp</dimen>
+    <dimen name="size_dp8">8dp</dimen>
+    <dimen name="size_dp9">9dp</dimen>
+    <dimen name="size_dp10">10dp</dimen>
+    <dimen name="size_dp11">11dp</dimen>
+    <dimen name="size_dp12">12dp</dimen>
+    <dimen name="size_dp14">14dp</dimen>
+    <dimen name="size_dp15">15dp</dimen>
+    <dimen name="size_dp16">16dp</dimen>
+    <dimen name="size_dp17">17dp</dimen>
+    <dimen name="size_dp18">18dp</dimen>
+    <dimen name="size_dp20">20dp</dimen>
+    <dimen name="size_dp22">22dp</dimen>
+    <dimen name="size_dp24">24dp</dimen>
+    <dimen name="size_dp25">25dp</dimen>
+    <dimen name="size_dp26">26dp</dimen>
+    <dimen name="size_dp28">28dp</dimen>
+    <dimen name="size_dp30">30dp</dimen>
+    <dimen name="size_dp32">32dp</dimen>
+    <dimen name="size_dp38">38dp</dimen>
+    <dimen name="size_dp35">35dp</dimen>
+    <dimen name="size_dp40">40dp</dimen>
+    <dimen name="size_dp45">45dp</dimen>
+    <dimen name="size_dp46">46dp</dimen>
+    <dimen name="size_dp48">48dp</dimen>
+    <dimen name="size_dp50">50dp</dimen>
+    <dimen name="size_dp52">52dp</dimen>
+    <dimen name="size_dp54">54dp</dimen>
+    <dimen name="size_dp55">55dp</dimen>
+    <dimen name="size_dp56">56dp</dimen>
+    <dimen name="size_dp60">60dp</dimen>
+    <dimen name="size_dp70">70dp</dimen>
+    <dimen name="size_dp72">72dp</dimen>
+    <dimen name="size_dp75">75dp</dimen>
+    <dimen name="size_dp80">80dp</dimen>
+    <dimen name="size_dp98">98dp</dimen>
+    <dimen name="size_dp175">175dp</dimen>
+    <dimen name="size_dp200">200dp</dimen>
+    <dimen name="size_dp180">180dp</dimen>
+
+
+
+    <dimen name="activity_horiztal_margin">16dp</dimen>
+    <dimen name="activity_vert_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="bottom_margin">16dp</dimen>
+    <dimen name="bottom_width">126dp</dimen>
+    <dimen name="bottom_height">56dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+
+
+
+    <dimen name="horizontal_margin">16dp</dimen>
+    <dimen name="vertical_margin">16dp</dimen>
+    <dimen name="card_bottom_info_height">150dp</dimen>
+    <dimen name="card_extra_height">20dp</dimen>
+
+
+
+    <dimen name="guillotine_small_margin">24dp</dimen>
+    <dimen name="guillotine_medium_margin">48dp</dimen>
+    <dimen name="guillotine_large_margin">100dp</dimen>
+    <dimen name="guillotine_divider_height">40dp</dimen>
+    <dimen name="guillotine_item_text_size">20sp</dimen>
+    <dimen name="guillotine_actionbar_background_view_height">35dp</dimen>
+
+    <dimen name="app_bar_height">320dp</dimen>
+    <dimen tools:override="true" name="design_navigation_separator_vertical_paddinng">0dp</dimen>
+
+
+    <dimen name="design_navigation_separator_vertical_padding">0dp</dimen>
+
+
+    //fab-MEnu
+    <dimen name="fab_actions_spacing">16dp</dimen>
+    <dimen name="fab_labels_margin">8dp</dimen>
+    <dimen name="font_size_8sp">8sp</dimen>
+
+
+
+
+    <dimen name="menu_item_padding">2dp</dimen>
+    <dimen name="text_right_padding">28dp</dimen>
+    <dimen name="text_right_translation">8dp</dimen>
+    <dimen name="text_wrapper_right_margin">-8dp</dimen>
+    <dimen name="divider_height">1dp</dimen>
+    <dimen name="menu_text_size">15sp</dimen>
+    <dimen name="size_dp120">120dp</dimen>
+    <dimen name="size_dp160">160dp</dimen>
+    <dimen name="size_dp44">44dp</dimen>
+    <dimen name="size_dp140">140dp</dimen>
+    <dimen name="size_dp90">90dp</dimen>
+
+
+
+    //expan
+    <dimen name="space_none">0dp</dimen>
+    <dimen name="space_xsmall">2dp</dimen>
+    <dimen name="space_small">4dp</dimen>
+    <dimen name="space_medium">8dp</dimen>
+    <dimen name="space_mid">12dp</dimen>
+    <dimen name="space_large">16dp</dimen>
+    <dimen name="space_xlarge">24dp</dimen>
+    <dimen name="space_xxlarge">30dp</dimen>
+
+    <dimen name="font_small">12sp</dimen>
+    <dimen name="font_regular">14sp</dimen>
+    <dimen name="font_medium">15sp</dimen>
+    <dimen name="font_large">16sp</dimen>
+    <dimen name="font_xlarge">20sp</dimen>
+    <dimen name="font_xxlarge">24sp</dimen>
+    <dimen name="size_dp100">100dp</dimen>
+
+</resources>

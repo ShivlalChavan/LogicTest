@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <include layout="@layout/layout_toolbar_global"/>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:id="@+id/flContentRoot"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+
+        </LinearLayout>
+
+        <com.example.logictest.FabMenu.FABsMenuLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            fab:fabs_menu_overlayColor="@color/transparent"
+            fab:fabs_menu_clickableOverlay="true"
+            tools:layout_behavior="@string/fabs_menu_layout_behavior">
+
+
+            <com.example.logictest.FabMenu.FABsMenu
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/fabs_menu"
+                android:clipChildren="false"
+                android:layout_gravity="bottom|end"
+                fab:fab_menuMargins="16dp"
+                fab:fab_moreButtonPlusIcon="@drawable/ic_add_24"
+                fab:fab_moreButtonBackgroundColor="@color/colorPrimary"
+                fab:fab_moreButtonRippleColor="@color/colorPrimary"
+                fab:fab_moreButtonSize="mini"
+                fab:fab_expandDirection="up"
+                >
+
+
+
+                <com.example.logictest.FabMenu.TitleFAB
+
+                    android:id="@+id/datePicker"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    fab:fabSize="mini"
+                    fab:fab_title="Date Picker"
+                    fab:fab_title_backgroundColor="@color/white"
+                    fab:fab_title_textColor="@color/colorBlack"
+                     />
+
+
+                <com.example.logictest.FabMenu.TitleFAB
+                    android:id="@+id/textBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    fab:fabSize="mini"
+                    fab:fab_title="Text Box"
+                    fab:fab_title_backgroundColor="@color/white"
+                    fab:fab_title_textColor="@color/colorBlack"/>
+
+
+
+                <com.example.logictest.FabMenu.TitleFAB
+                    android:id="@+id/result"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    fab:fabSize="mini"
+                    fab:fab_title="Formula"
+                    fab:fab_title_backgroundColor="@color/white"
+                    fab:fab_title_textColor="@color/colorBlack"/>
+
+            </com.example.logictest.FabMenu.FABsMenu>
+
+        </com.example.logictest.FabMenu.FABsMenuLayout>
+
+
+
+    </FrameLayout>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
